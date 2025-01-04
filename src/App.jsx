@@ -5,6 +5,7 @@ import Progress from './components/Progress1';
 import Popup1 from './components/Popup1';
 import PieChart from './components/PieChart';
 import FlipCard from './components/FlipCard';
+import LoginForm from './components/LoginForm';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/popup1" element={<Popup1 />} />
           <Route path="/piechart" element={<PieChart />} />
           <Route path="/flipcard" element={<FlipCard />} />
+          <Route path='/signin' element={<LoginForm />} />
         </Routes>
       </div>
     </Router>
